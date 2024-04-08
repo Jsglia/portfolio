@@ -1,0 +1,16 @@
+//  MIXINS
+
+@mixin medidas($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin flex($display, $flexdirection, $align){
+    display: $display;
+    flex-direction: $flexdirection;
+    align-items: $align;
+}
+
+
+
+

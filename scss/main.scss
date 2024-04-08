@@ -1,3 +1,28 @@
+// BASE
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+// UTILITIES
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixins';
+@import 'partials/utilities/variables';
+
+// COMPONENTS
+
+
+@import 'partials/components/index';
+@import 'partials/components/footer';
+@import 'partials/components/contacto';
+@import 'partials/components/habilidades';
+@import 'partials/components/header';
+@import 'partials/components/nav';
+@import 'partials/components/portfolio';
+@import 'partials/components/sobremi';
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Nunito:wght@200;700&family=Open+Sans:wght@300&family=Rethink+Sans:wght@400;500&family=Roboto:wght@100;300;700&display=swap');
+
+
 //  LISTO PARA AÑADIR ESTILOS
 // sass -- watch scss/main.scss css/style.css
 
